@@ -255,6 +255,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a842c', end
 .menu-opener.is-active .close{
   display: inline-block;
 }
+.menu-opener.is-active .burger{
+  display: none;
+}
 .author{
   padding: 15px;
   border: 1px solid #333;
