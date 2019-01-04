@@ -397,7 +397,9 @@ h1 {
   float: left;
 }
 
-.rating > input { display: none; } 
+.rating > input { 
+  display: none;
+} 
 .rating > label:before { 
   margin: 5px;
   font-size: 1.25em;
@@ -418,12 +420,16 @@ h1 {
 
 .rating > input:checked ~ label,
 .rating:not(:checked) > label:hover, 
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+.rating:not(:checked) > label:hover ~ label {
+ color: #FFD700;
+} 
 
 .rating > input:checked + label:hover, 
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, 
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+} 
 .article__title {
   font-size: 20px;
   letter-spacing: .2em;
